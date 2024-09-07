@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica número 1</title>
+</head>
+<body>
+    <h1>Esta es la práctica más fácil jeje</h1>
+    <nav><li>Elemento 1</li><li>Elemento 2</li></nav>
+    <a href="https://drive.google.com/file/d/1CPItMCZ5k7XkvYtoJDD6PclEkS9NxrUr/view">Comic Scott Pilgrim en Español</a>
+    <section>
+        <h2>Este es el section</h2>
+        <article><h3>Esta es la sección de un article dentro de un section</h3></article>
+        <article>Scott Pilgrim <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0QFREw8_gj-CRJGgqpP4ZxapVisM6v5M70A&s" alt="Scott"></article>
+        <img src="./Ramona.webp" alt="jaja lol xd">
+        
+    </section>
+    <div id="Formulario Materias"></div>
+    <h1>Formulario de Calificaciones</h1>
+    <form id="FormularioCalificaciones">
+    Matricula: <input type="text" id="Matricula" name="Matricula" required><br>
+    Nombre: <input type="text" id="Nombre" name="Nombre" required><br>
+
+    Materia 1:
+    <select id="Materia1" name="Materia1">
+    <option value="Español">Español</option>
+    <option value="Matemáticas">Matemáticas</option>
+    <option value="Inglés">Inglés</option>
+    <option value="Ciencias">Ciencias</option>
+    <option value="Quimica">Quimica</option>
+    <option value="Geografia">Geografia</option>
+    <option value="Biologia">Biologia</option>
+    <option value="Etica">Etica</option>
+    <option value="Fisica">Fisica</option>
+    <option value="Artes">Artes</option>
+</select>
+Calificación: <input type="number" id="calificacion1" name="calificacion1" required><br>
+
+Materia 2:
+ <select id="Materia2" name="Materia2">
+    <option value="Español">Español</option>
+    <option value="Matemáticas">Matemáticas</option>
+    <option value="Inglés">Inglés</option>
+    <option value="Ciencias">Ciencias</option>
+    <option value="Quimica">Quimica</option>
+    <option value="Geografia">Geografia</option>
+    <option value="Biologia">Biologia</option>
+    <option value="Etica">Etica</option>
+    <option value="Fisica">Fisica</option> 
+    <option value="Artes">Artes</option>
+</select>
+Calificación: <input type="number" id="calificacion2" name="calificacion2" required><br>
+
+Materia 3:
+<select id="Materia3" name="Materia3">
+    <option value="Español">Español</option>
+    <option value="Matemáticas">Matemáticas</option>
+    <option value="Inglés">Inglés</option>
+    <option value="Ciencias">Ciencias</option>
+    <option value="Quimica">Quimica</option>
+    <option value="Geografia">Geografia</option>
+    <option value="Biologia">Biologia</option>
+    <option value="Etica">Etica</option>
+    <option value="Fisica">Fisica</option>
+    <option value="Artes">Artes</option>
+   </select>
+   Calificación: <input type="number" id="calificacion3" name="calificacion3" required><br>
+
+<button type="submit">Enviar</button>
+</form>
+
+<video width="500" height="350" controls autoplay muted>
+    <source src="img/Video.mp4" type="video/mp4">
+</video>
+<audio controls autoplay muted>
+    <source src="img/pumass.mp3" type="audio/mp3">
+</audio>
+
+<h3>Tipos de elementos en Formulario</h3>
+<form action="./practica1.html" oninput="range_control_value.value" = range_control_valueAsNumber method="get">
+    <p>
+        Nombre: <input type="text" name="name_control" autofocus required /><br />
+        Correco Electronico: <input type="email" name="email_control" required /> <br />
+        URL:
+        <input type="url" name="url_control" placeholder="Escribe la url de tu página personal" /> <br/>
+        Fecha: <input type="date" name="date_control" /> <br />
+        Tiempo: <input type="time" name="time_control" /> <br />
+        Fecha y Hora de nacimiento: <input type="datetime" name="datetime_control" /> <br />
+        Mes: <input type="month" name="month_control" /> <br />
+        Semana: <input type="week" name="week_control" /> <br />
+        Número (min -10, max 10): <input type="number" name="number_control" min="-10" max="10" value="0" /> <br />
+        Intervalo (min 0, max 10): <input type="range" name="range_control" min="0" max="10" />
+        <output for="range_control" name="range_control_value">0</output> <br />
+        Telefono: <input type="tel" name="tel_control" /> <br />
+        Termino de busqueda: <input type="search" name="search_control" /> <br />
+        Color Favorito: <input type="color" name="color_control" /> <br /> 
+    </p>
+</form>
+<br>
+
+</body>
+<footer>Este es el pie de página mi página web</footer>
+</html>
